@@ -23,7 +23,8 @@ jobs:
             git zip unzip openjdk-17-jdk \
             autoconf libtool pkg-config \
             zlib1g-dev libncurses-dev libffi-dev libssl-dev \
-            cmake automake build-essential
+            cmake automake build-essential \
+            libc6-dev-i386 lib32z1 lib32stdc++6 libstdc++6
 
       - name: Install Buildozer
         run: |
