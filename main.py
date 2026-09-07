@@ -35,7 +35,7 @@ KV = """
         height: dp(30)
         canvas:
             Color:
-                rgba: (0.79, 0.64, 0.29, 1) if self.done else (0.85, 0.82, 0.74, 1)
+                rgba: (0.79, 0.64, 0.29, 1) if root.done else (0.85, 0.82, 0.74, 1)
             Ellipse:
                 pos: self.center_x - dp(15), self.top - dp(30)
                 size: dp(30), dp(30)
